@@ -1,0 +1,13 @@
+
+set FLASK_APP=passIt_V1
+set FLASK_DEBUG=1
+
+In python shell
+from passIt_V1 import db , create_app
+db.create_all(app = create_app())
+
+
+To do more in the webpage
+1. know how to retrieve user session information
+2. in webpage back option must not be there due to security
+3. the pin is currently added in new row we have to sometimes update the row or sometimes have to insert to see to it...
